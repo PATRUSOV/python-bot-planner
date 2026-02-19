@@ -74,9 +74,7 @@ python main.py
   ----------- -------------------------------------------- ---------
   BOT_TOKEN   Telegram Bot API token from BotFather        None
   LOG_LEVEL   Logging level: DEBUG, INFO, WARNING, ERROR   INFO
-
 ------------------------------------------------------------------------
-
 
 ## 📄 License
 
