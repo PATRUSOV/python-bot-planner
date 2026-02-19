@@ -19,7 +19,6 @@ custom categories with a clean hybrid interface.
     control
 -   **Persistent Storage** -- Asynchronous SQLite database for reliable
     performance
--   **Structured Logging** -- Configurable via environment variables
 
 ------------------------------------------------------------------------
 
@@ -75,45 +74,6 @@ python main.py
   ----------- -------------------------------------------- ---------
   BOT_TOKEN   Telegram Bot API token from BotFather        None
   LOG_LEVEL   Logging level: DEBUG, INFO, WARNING, ERROR   INFO
-
-------------------------------------------------------------------------
-
-
-## 🧠 How It Works
-
-1.  The user selects or creates a category.
-2.  Any incoming Telegram message is stored as a reference (`chat_id`,
-    `message_id`).
-3.  Content is retrieved directly from Telegram when requested.
-4.  All operations are asynchronous for maximum responsiveness.
-
-------------------------------------------------------------------------
-
-## 🧩 Tech Stack
-
--   Python 3.10+
--   aiogram 3.x
--   aiosqlite
--   python-dotenv
--   SQLite
-
-------------------------------------------------------------------------
-
-## 🛡 Security Notes
-
--   Never commit your `.env` file
--   Restrict bot access if used in private workflows
--   Validate user input when extending functionality
-
-------------------------------------------------------------------------
-
-## 📌 Roadmap
-
--   Export categories to JSON/Markdown
--   Full-text search
--   Tag system
--   Message editing support
--   Web dashboard
 
 ------------------------------------------------------------------------
 
