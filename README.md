@@ -70,11 +70,11 @@ python main.py
 
 ## ⚙️ Configuration
 
-  Variable    Description                                  Default
-  ----------- -------------------------------------------- ---------
-  BOT_TOKEN   Telegram Bot API token from BotFather        None
-  LOG_LEVEL   Logging level: DEBUG, INFO, WARNING, ERROR   INFO
-  ----------  -------------------------------------------- ---------
+| Variable   | Description                                  | Default   |
+|------------|----------------------------------------------|-----------|
+| BOT_TOKEN  | Telegram Bot API token from BotFather        | None      |
+| LOG_LEVEL  | Logging level: DEBUG, INFO, WARNING, ERROR   | INFO      |
+
 ------------------------------------------------------------------------
 
 ## 📄 License
